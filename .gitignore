@@ -1,0 +1,53 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+.venv/
+env/
+ENV/
+*.env
+
+# PyCharm/IntelliJ IDEA project files
+.idea/
+
+# VSCode project files
+.vscode/
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Dataset files (optional: if you don't want to include large datasets in the repo)
+*.csv
+*.tsv
+*.json
+*.pickle
+*.h5
+*.pkl
+
+# Model files (optional: if you don't want to include model checkpoints)
+*.h5
+*.pth
+*.pkl
+
+# Data files that are too large to track (can be added individually if necessary)
+data/
+models/
+
+# VSCode settings folder (if you're using VSCode)
+.vscode/
+
+# User-specific files
+*.swp
+*.swo
